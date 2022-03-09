@@ -1,0 +1,65 @@
+{
+  "name": "berp",
+  "version": "1.0.0",
+  "description": "a raknet implementation solution for bedrock edition realms",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "dev": "cross-env NODE_ENV=development ts-node src/index.ts",
+    "lint": "eslint src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobUwU/BeRP.git"
+  },
+  "keywords": [
+    "mcbe",
+    "raknet",
+    "realms",
+    "berp",
+    "bewss",
+    "utilities",
+    "minecraft",
+    "bedrock"
+  ],
+  "author": "NobUwU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NobUwU/BeRP/issues"
+  },
+  "homepage": "https://github.com/NobUwU/BeRP#readme",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.2",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/node": "^16.3.2",
+    "@types/readable-stream": "^2.3.11",
+    "@types/uuid-1345": "^0.99.22",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.30.0",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^1.2.0",
+    "jimp": "^0.16.1",
+    "@types/uuid": "^8.3.1",
+    "@xboxreplay/xboxlive-auth": "^3.3.3",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "cli-select": "^1.1.2",
+    "enquirer": "github:NobUwU/enquirer#typings",
+    "js-yaml": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "prismarine-nbt": "^1.5.0",
+    "protodef": "^1.14.0",
+    "raknet-native": "^1.0.6",
+    "uuid": "^8.3.2",
+    "uuid-1345": "^1.0.2"
+  }
+}
