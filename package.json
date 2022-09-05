@@ -59,7 +59,7 @@
     "prismarine-nbt": "^2.2.0",
     "protodef": "^1.14.0",
     "raknet-native": "^1.0.6",
-    "uuid": "^8.3.2",
+    "uuid": "^9.0.0",
     "uuid-1345": "^1.0.2"
   }
 }
